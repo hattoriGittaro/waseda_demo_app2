@@ -26,6 +26,3 @@ samples, guidance on mobile development, and a full API reference.
 誰もが投稿できてしまうため早稲田生である事と授業を受けた事があることの信憑性に問題がある。
 ログイン・マイページ画面が作成できていないため、自分の投稿の閲覧・削除の機能などができていない。
 
-【機能一覧】
-・投稿画面
-
