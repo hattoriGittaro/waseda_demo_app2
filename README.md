@@ -29,4 +29,11 @@ samples, guidance on mobile development, and a full API reference.
 【機能一覧】
 ・投稿画面
 
-<img width="" alt="スクリーンショット 2020-08-07 11 40 48" src="https://user-images.githubusercontent.com/64268445/89612785-a5c73000-d8bb-11ea-8954-9aac3d79be59.png">
+<img width="150" alt="スクリーンショット 2020-08-07 11 40 48" src="https://user-images.githubusercontent.com/64268445/89612785-a5c73000-d8bb-11ea-8954-9aac3d79be59.png">
+
+・検索画面
+<img width="150" alt="スクリーンショット 2020-08-07 11 41 09" src="https://user-images.githubusercontent.com/64268445/89612995-29811c80-d8bc-11ea-92af-1c58bca075e8.png">
+
+・興味のある授業を検索できます
+<img width="150" alt="スクリーンショット 2020-08-07 11 41 46" src="https://user-images.githubusercontent.com/64268445/89612998-2b4ae000-d8bc-11ea-9e30-0b710de889c2.png">
+
