@@ -28,4 +28,5 @@ samples, guidance on mobile development, and a full API reference.
 
 #機能一覧
 ・投稿画面
-<img width="381" alt="スクリーンショット 2020-08-07 11 40 48" src="https://user-images.githubusercontent.com/64268445/89612785-a5c73000-d8bb-11ea-8954-9aac3d79be59.png">
+
+<img width="100" alt="スクリーンショット 2020-08-07 11 40 48" src="https://user-images.githubusercontent.com/64268445/89612785-a5c73000-d8bb-11ea-8954-9aac3d79be59.png">
