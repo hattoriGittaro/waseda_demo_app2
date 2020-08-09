@@ -14,9 +14,13 @@ class WelcomeScreen extends StatelessWidget {
           bottomNavigationBar: BottomNavigationBar(
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(
-                icon: Icon(Icons.local_post_office),
-                title: Text('review'),
+                icon: Icon(Icons.person),
+                title: Text('Login' + '/' + 'review'),
               ),
+//              BottomNavigationBarItem(
+//                icon: Icon(Icons.text_fields),
+//                title: Text('review'),
+//              ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.search),
                 title: Text('search'),

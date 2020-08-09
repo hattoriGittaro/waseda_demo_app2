@@ -22,13 +22,18 @@ class _SearchScreenState extends State<SearchScreen> {
           child: TextField(
             cursorColor: Color(0xffd24752),
             decoration: InputDecoration(
-              fillColor: Colors.red,
-              prefixIcon: Icon(
-                Icons.search,
-                color: Colors.blueGrey,
-              ),
-              hintText: '授業名',
-            ),
+                fillColor: Colors.red,
+                prefixIcon: Icon(
+                  Icons.search,
+                  color: Colors.blueGrey,
+                ),
+                hintText: '授業名',
+                focusedBorder: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    width: 1,
+                    color: Color(0xff9C072B),
+                  ),
+                )),
             onChanged: (val) {
               setState(() {
                 name = val;

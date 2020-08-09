@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:waseda_demo_app2/constans.dart';
 import 'package:waseda_demo_app2/model/posting_model.dart';
 import 'package:smooth_star_rating/smooth_star_rating.dart';
 import 'package:waseda_demo_app2/screens/welcome_screen.dart';
@@ -26,7 +27,7 @@ class PostingScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       SizedBox(
-                        width: 300.0,
+                        width: 330.0,
                         child: RaisedButton(
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10.0),
@@ -63,88 +64,46 @@ class PostingScreen extends StatelessWidget {
                         ),
                       ),
                       Container(
+                        width: 350.0,
                         padding: EdgeInsets.all(10.0),
                         child: TextField(
+                          cursorColor: Color(0xff9C072B),
+                          textAlign: TextAlign.center,
                           onChanged: (text) {
                             model.lesson_name = text;
                           },
-                          decoration: InputDecoration(
-                            //Focusしていないとき
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                              borderSide: BorderSide(
-                                color: Colors.black,
-                              ),
-                            ),
-                            //Focusしているとき
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(20.0),
-                              borderSide: BorderSide(
-                                color: Color(0xff9C072B),
-                                width: 3.0,
-                              ),
-                            ),
-                            hintText: '授業名',
-                            contentPadding: EdgeInsets.all(16.0),
-                          ),
+                          decoration:
+                              kTextFieldDecoration.copyWith(hintText: '授業名'),
                         ),
                       ),
                       Container(
+                        width: 350.0,
                         padding: EdgeInsets.all(10.0),
                         child: TextField(
+                          cursorColor: Color(0xff9C072B),
+                          textAlign: TextAlign.center,
                           onChanged: (text) {
                             model.content = text;
                           },
                           keyboardType: TextInputType.multiline,
                           maxLines: null,
-                          decoration: InputDecoration(
-                            //Focusしていないとき
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                              borderSide: BorderSide(
-                                color: Colors.black,
-                              ),
-                            ),
-                            //Focusしているとき
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(20.0),
-                              borderSide: BorderSide(
-                                color: Color(0xff9C072B),
-                                width: 3.0,
-                              ),
-                            ),
-                            hintText: '内容',
-                            contentPadding: EdgeInsets.all(16.0),
-                          ),
+                          decoration:
+                              kTextFieldDecoration.copyWith(hintText: '内容'),
                         ),
                       ),
                       Container(
+                        width: 350.0,
                         padding: EdgeInsets.all(10.0),
                         child: TextField(
+                          cursorColor: Color(0xff9C072B),
+                          textAlign: TextAlign.center,
                           onChanged: (text) {
                             model.unit = text;
                           },
                           keyboardType: TextInputType.multiline,
                           maxLines: null,
-                          decoration: InputDecoration(
-                            //Focusしていないとき
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                              borderSide: BorderSide(
-                                color: Colors.black,
-                              ),
-                            ),
-                            //Focusしているとき
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(20.0),
-                              borderSide: BorderSide(
-                                color: Color(0xff9C072B),
-                                width: 3.0,
-                              ),
-                            ),
-                            hintText: '単位',
-                            contentPadding: EdgeInsets.all(16.0),
-                          ),
+                          decoration:
+                              kTextFieldDecoration.copyWith(hintText: '単位'),
                         ),
                       ),
                       Column(
@@ -205,7 +164,7 @@ class PostingScreen extends StatelessWidget {
                         height: 10.0,
                       ),
                       SizedBox(
-                        width: 300,
+                        width: 330,
                         child: RaisedButton(
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10.0),

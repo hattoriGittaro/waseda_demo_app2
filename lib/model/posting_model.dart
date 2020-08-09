@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:waseda_demo_app2/screens/login_screen.dart';
 import 'package:waseda_demo_app2/screens/posting_screen.dart';
 import 'package:waseda_demo_app2/screens/search_screen.dart';
 import '../gakubu_data.dart';
@@ -66,7 +67,8 @@ class PostingModel extends ChangeNotifier {
   int selectedIndex = 0;
 
   List<Widget> widgetOptions = <Widget>[
-    PostingScreen(),
+    LoginScreen(),
+    //PostingScreen(),
     SearchScreen(),
   ];
 
